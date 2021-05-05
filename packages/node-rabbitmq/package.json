@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "demo project for rabbitmq with nodejs",
   "author": "vamsi krishna <vamsi.krishna@kivitech.in>",
   "homepage": "",
