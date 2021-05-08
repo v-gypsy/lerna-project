@@ -1,0 +1,30 @@
+{
+  "name": "testcases",
+  "version": "1.0.0",
+  "description": "writting testcases in nodejs",
+  "author": "vamsi krishna",
+  "homepage": "https://github.com/v-gypsy/lerna-project#readme",
+  "license": "ISC",
+  "main": "lib/node-testcases.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-gypsy/lerna-project.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/v-gypsy/lerna-project/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}

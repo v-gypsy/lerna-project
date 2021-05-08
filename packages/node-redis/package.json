@@ -2,7 +2,7 @@
   "name": "redis",
   "version": "1.0.0",
   "description": "demo project for redis with nodejs",
-  "author": "vamsi krishna <vamsi.krishna@kivitech.in>",
+  "author": "vamsi krishna",
   "homepage": "",
   "license": "ISC",
   "main": "lib/node-redis.js",
