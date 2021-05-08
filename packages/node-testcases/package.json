@@ -18,7 +18,7 @@
     "url": "git+https://github.com/v-gypsy/lerna-project.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "bugs": {
     "url": "https://github.com/v-gypsy/lerna-project/issues"
