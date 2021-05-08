@@ -8,8 +8,10 @@ function consumemessages(ch, queue) {
             let msgBody = msg.content.toString();
             let data = JSON.parse(msgBody);
             console.log(data);
-            ch.ack(msg);
-            resolve(data);
+            setTimeout(function() {
+                resolve(data);
+                ch.ack(msg);
+            }, 3000)
         });
     });  
 }
