@@ -1,7 +1,6 @@
 
 const rabbitmqconn = require("./rabbitmqConn");
 
-
 async function producemessagetoqueue(exchange, routingKey, data) {
     try {
         let ch = await rabbitmqconn();

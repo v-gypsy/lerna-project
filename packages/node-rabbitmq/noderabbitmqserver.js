@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const producer = require("./producer");
 
-app.get('/', async (req, res, next) =>{
+app.get('/producemsg', async (req, res, next) =>{
     try {
         let obj = {
             name: "vamsi",
@@ -20,16 +20,19 @@ app.get('/', async (req, res, next) =>{
         let exchange = "sample-queue-exchange";
         let routingKey = "sample";
 
-        producer(exchange, routingKey, obj);
+        setInterval(function(){
+            producer(exchange, routingKey, obj);
+        }, 500);
     
-        res.send({"status": 1, "msg": "Sample route called..."});
+        res.send({"status": 1, "msg": "msg sent to queue..."});
 
     } catch(error){
+        console.log(error);
         res.send({"status": 0, "msg": "error..."});
     }
-})
+});
 
-const port = 3000;
+const port = 8000;
 app.listen(port, (error) => {
     if(error){
         console.log(error)
