@@ -1,6 +1,6 @@
 {
   "name": "sequelize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "using sequelize orm in nodejs",
   "author": "vamsi krishna",
   "homepage": "https://github.com/v-gypsy/lerna-project#readme",
