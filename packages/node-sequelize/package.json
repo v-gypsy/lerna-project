@@ -1,0 +1,32 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "using sequelize orm in nodejs",
+  "author": "vamsi krishna",
+  "homepage": "https://github.com/v-gypsy/lerna-project#readme",
+  "license": "ISC",
+  "main": "lib/node-sequelize.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-gypsy/lerna-project.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/v-gypsy/lerna-project/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
